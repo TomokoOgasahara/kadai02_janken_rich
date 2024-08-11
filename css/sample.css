@@ -1,0 +1,53 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-size: 32px;
+}
+header{
+    background-color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+p{
+    width: 1920px;
+    border-width:5px;
+    border-style:dashed;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 30px;    
+}
+
+.list1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+}
+
+li{
+    list-style-type:none;
+    border: 1px solid #fff;
+    background-color: #FFF;
+    display:flex;  /* 定義 */
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+li:hover{
+    transform:scale(0.9,0.9);
+    transition:0.2s all;
+}
+
+.pc1 {
+    width: 100%; /* 適切な幅を指定 */
+    height: 100%; /* 適切な高さを指定 */
+    border: 1px solid red; /* 境界線を追加して表示領域を確認 */
+    overflow: visible; /* コンテンツが切れないようにする */
+    justify-content: center;
+}
